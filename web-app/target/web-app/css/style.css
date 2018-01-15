@@ -1,0 +1,27 @@
+h2{text-shadow:2px 2px 4px  #8C8C8C;color:#515151;}
+
+input{margin: 5px 0;}
+
+tr, td{
+    border:1px solid black;
+}
+
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    align-self: center;
+}
+
+.addAnimal{
+    text-align: center;
+}
+
+.tablearea{
+     text-align: center;
+     display: flex;
+     justify-content: center;
+ }
+
+.tableheader{
+    background-color: chartreuse;
+}

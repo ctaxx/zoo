@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Zoo</title>
+        <script src="js/lib/jquery-1.11.1.js"></script>
+        <script src = "js/mainScript.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h2>Зоопарк</h2>
+        </div>
+        <div class="addAnimal">
+            <h3>Добавить животное</h3>
+
+            Имя<input type="text" id = "animalName"><br>
+            Возраст<input type="number" id = "animalAge"><br>
+            Тип животного<input type="text" id = "animalClass"><br>
+
+            <input type = "button" onclick="addAnimal()" value="Добавить">
+        </div>
+        <label id="result"></label>
+
+        <a href="showAnimals.html">Просмотр зоопарка</a>
+
+    </body>
+</html>
